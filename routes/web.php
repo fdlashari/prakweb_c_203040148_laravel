@@ -19,8 +19,8 @@ Route::get('/', function () {
 
 Route::get('/about', function () {
     return view ('about',[
-        "name" => "Andi Rahman Hakim",
-        "email" => "andirahman@gmail.com",
+        "name" => "Fadhil Ashari",
+        "email" => "fdlashari@gmail.com",
         "image" => "profile.jpeg"
     ]);
 });
